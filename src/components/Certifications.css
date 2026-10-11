@@ -1,0 +1,140 @@
+.certs-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.2rem;
+}
+
+.sub-title {
+  font-size: 0.85rem;
+  color: var(--cyan);
+  margin-bottom: 1.25rem;
+  letter-spacing: 0.05em;
+}
+
+.certs-cards-list, .achieve-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.cert-card, .achieve-card {
+  padding: 1.8rem;
+  background: #09172c;
+  border-color: #162d4a;
+  transition: all 0.28s ease;
+}
+
+.cert-card:hover, .achieve-card:hover {
+  transform: translateY(-4px);
+  border-color: #255182;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.cert-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.cert-icon-container {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.cert-tag {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.2rem 0.6rem;
+  border-radius: 4px;
+  border: 1px solid;
+}
+
+.cert-card-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.35rem;
+  line-height: 1.35;
+}
+
+.cert-issuer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.8rem;
+  color: var(--text-2);
+  margin-bottom: 0.9rem;
+}
+
+.cert-date {
+  font-size: 0.72rem;
+  color: var(--text-3);
+}
+
+.cert-desc {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+.cert-skills-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+/* Achievement card */
+.achieve-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.achieve-icon {
+  font-size: 1.6rem;
+}
+
+.achieve-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.25rem;
+}
+
+.achieve-role {
+  font-size: 0.78rem;
+  color: var(--blue-2);
+  margin-bottom: 0.8rem;
+}
+
+.achieve-desc {
+  font-size: 0.85rem;
+  color: var(--text-2);
+  line-height: 1.6;
+  margin-bottom: 1.1rem;
+}
+
+.achieve-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--border);
+}
+
+@media (max-width: 900px) {
+  .certs-layout {
+    grid-template-columns: 1fr;
+  }
+}

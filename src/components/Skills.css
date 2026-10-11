@@ -1,0 +1,144 @@
+.skills-quick-bar {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1rem 1.4rem;
+  background: rgba(12, 26, 48, 0.5);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.quick-title {
+  font-size: 0.75rem;
+  color: var(--cyan);
+  letter-spacing: 0.08em;
+  font-weight: 600;
+}
+
+.quick-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.q-badge {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 0.25rem 0.65rem;
+  border-radius: 4px;
+  background: rgba(59, 130, 246, 0.08);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+  color: var(--blue-2);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.8rem;
+}
+
+.skill-category-card {
+  padding: 2rem;
+  background: #09172c;
+  border-color: #162d4a;
+  transition: all 0.3s ease;
+}
+
+.skill-category-card:hover {
+  border-color: #255182;
+  transform: translateY(-4px);
+}
+
+.cat-card-header {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  margin-bottom: 1.6rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.cat-icon-wrap {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+.cat-badge {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 0.2rem;
+}
+
+.cat-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.skills-items-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.skill-row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.skill-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-name {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.skill-pct {
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.skill-track {
+  width: 100%;
+  height: 7px;
+  background: rgba(22, 45, 74, 0.6);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.skill-bar-fill {
+  height: 100%;
+  border-radius: 10px;
+  transition: width 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.skill-desc {
+  font-size: 0.7rem;
+  color: var(--text-3);
+  margin-top: 0.15rem;
+}
+
+@media (max-width: 900px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+}
