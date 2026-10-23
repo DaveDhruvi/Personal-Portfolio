@@ -160,7 +160,7 @@ export default function Contact() {
           <div className="footer-line" />
           <div className="footer-content">
             <p className="footer-text mono">
-              Designed & Built with precision for <span className="text-cyan">Dhruvi Dave</span>
+              Designed & Built with precision By <span className="text-cyan">Dhruvi Dave</span>
             </p>
             <p className="footer-sub mono">
               Tech Stack: React 18 · Cloud & DevOps Theme · AI Recruiter Assistant
