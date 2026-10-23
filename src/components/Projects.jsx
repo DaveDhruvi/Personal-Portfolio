@@ -16,8 +16,8 @@ const PROJECTS = [
       'Integrated OCR receipt data extraction to automate entries, reducing manual data entry by 50%.',
     ],
     tags: ['React.js', 'Node.js', 'Flask', 'OCR', 'Express.js', 'MySQL', 'Recharts'],
-    githubUrl: 'https://github.com/dhruvidave/Smart-Expense-Tracker',
-    liveUrl: 'https://smart-expense-tracker-dhruvi.vercel.app',
+    githubUrl: 'https://github.com/DaveDhruvi/Smart-Expense-Tracker',
+    liveUrl: 'https://smart-expense-tracker-dd.vercel.app/',
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const PROJECTS = [
     ],
     tags: ['Java', 'Swing', 'MySQL', 'JDBC', 'OOP', 'RBAC', 'Multithreading'],
     githubUrl: 'https://github.com/dhruvidave/Inventory-Management-System',
-    liveUrl: 'https://github.com/dhruvidave/Inventory-Management-System#demo',
+    liveUrl: null,
   },
   {
     id: 3,
@@ -50,8 +50,8 @@ const PROJECTS = [
       'Real-time admin metrics dashboard monitoring placed vs. unplaced student statistics.',
     ],
     tags: ['React.js', 'Node.js', 'Express.js', 'SQL', 'MongoDB', 'REST APIs'],
-    githubUrl: 'https://github.com/dhruvidave/Placement-Management-System',
-    liveUrl: 'https://placement-portal-dhruvi.vercel.app',
+    githubUrl: 'https://github.com/DaveDhruvi/Placement-Management-System',
+    liveUrl: null,
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ const PROJECTS = [
       'Hands-free, voice-enabled command execution integrated with Google Speech API.',
     ],
     tags: ['Python', 'Tkinter', 'Google Speech API', 'Pyttsx3', 'Voice I/O'],
-    githubUrl: 'https://github.com/dhruvidave/MathBot-Calculator',
+    githubUrl: 'https://github.com/DaveDhruvi/Mathbot-Math-Calculator-Learning-Tool',
     liveUrl: null,
   },
   {
